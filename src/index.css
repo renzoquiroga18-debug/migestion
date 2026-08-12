@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #eef5ff;
+  --color-brand-100: #d9e8ff;
+  --color-brand-200: #bcd6ff;
+  --color-brand-300: #8fbaff;
+  --color-brand-400: #5b95ff;
+  --color-brand-500: #3170f5;
+  --color-brand-600: #2151e0;
+  --color-brand-700: #1c40b8;
+  --color-brand-800: #1c3690;
+  --color-brand-900: #1c3172;
+  --color-brand-950: #131d47;
+
+  --font-sans: 'Inter', system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light dark;
+  --chart-grid: #eef1f6;
+  --chart-tick: #94a3b8;
+  --tooltip-bg: #ffffff;
+  --tooltip-border: #e2e8f0;
+  --tooltip-text: #1e293b;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    --chart-grid: #232838;
+    --chart-tick: #7c879c;
+    --tooltip-bg: #1a1f2e;
+    --tooltip-border: #2e3448;
+    --tooltip-text: #e5e7eb;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: #f6f7fb;
+  color: #1a1d29;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0b0e14;
+    color: #e5e7eb;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd2e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar-thumb {
+    background: #3f4655;
+  }
+}
