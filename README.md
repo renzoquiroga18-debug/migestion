@@ -2,6 +2,8 @@
 
 Plataforma de gestión de inventario para pequeños comercios — proyecto de muestra de portafolio.
 
+**🔗 Demo en vivo: [migestion-mu.vercel.app](https://migestion-mu.vercel.app)**
+
 Landing pública, login, dashboard con gráficos e insights de IA, gestión de productos e inventario, alertas automáticas, gestión de usuarios, chatbot de ayuda y soporte de modo oscuro.
 
 ## Stack
